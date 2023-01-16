@@ -1,0 +1,256 @@
+
+* {
+  color: #1E1E1E;
+  font-family: Arial;
+  margin: 0px;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #FFFFFF;
+  padding-top: 160px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.featured {
+  margin: 20px;
+}
+
+.featured h1 {
+  font-family: Gill Sans;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 40px;
+  font-weight: lighter;
+  margin: 40px 0px;
+}
+
+.featured-infobox {
+  background-color: #ADADAD;
+  background-image: url("resources/lmnt-1.png");
+  background-size: cover;
+  margin-top: 20px;
+  padding: 30px;
+  letter-spacing: 5px;
+  height: 500px;
+  width: auto;
+  transition: opacity 0.15s, margin 0.15s;
+}
+
+.featured-infobox:hover {
+  margin: 20px 5px;
+ cursor: pointer;
+}
+.featured-infobox:active {
+ opacity: 0.8;
+}
+
+.featured-infobox em {
+  font-family: Gill Sans;
+  font-weight: lighter;
+  color: #333;
+}
+
+.featured-infobox h2 {
+  font-family: Gill Sans;
+  text-transform: uppercase;
+  color: #333;
+  font-weight: bolder;
+}
+.featured-infobox h3 {
+  font-family: Gill Sans;
+  text-transform: uppercase;
+  color: #333;
+  font-weight: normal;
+}
+
+.featured-infobox .display-box-text {
+  background-color: #E1CBA9;
+}
+
+#display-box {
+  position: relative;
+}
+
+.display-box-text {
+  background-color: #333;
+  padding: 20px 30px;
+  border-radius: 1px;
+  position: absolute;
+  right: 40px;
+  bottom: 40px;
+}
+
+.mens {
+  background-color: #705A5A;
+  background-image: url("resources/lmnt-2.png");
+  background-size: cover;
+  margin: 20px;
+  padding: 30px;
+  letter-spacing: 5px;
+  height: 500px;
+  width: auto;
+  transition: opacity 0.15s, margin 0.15s;
+}
+
+.mens:hover {
+ margin: 20px 25px;
+ cursor: pointer;
+}
+.mens:active {
+ opacity: 0.8;
+}
+
+.mens h3 {
+  font-size: 20px;
+  color: #E1CBA9;
+  font-family: Gill Sans;
+  text-transform: uppercase;
+}
+
+.mens p {
+  font-family: Gill Sans;
+  font-weight: lighter;
+  font-style: italic;
+  color: #E1CBA9;
+}
+
+.womens {
+  background-color: #E1CBA9;
+  background-image: url("resources/lmnt-3.png");
+  background-size: cover;
+  margin: 20px;
+  padding: 30px;
+  letter-spacing: 5px;
+  height: 500px;
+  width: auto;
+  transition: opacity 0.15s, margin 0.15s;
+}
+
+.womens:hover {
+ margin: 20px 25px;
+ cursor: pointer;
+}
+
+.womens:active {
+ opacity: 0.8;
+}
+
+.womens h3 {
+  font-size: 20px;
+  color: #E1CBA9;
+  font-family: Gill Sans;
+  text-transform: uppercase;
+}
+
+.womens p {
+  font-family: Gill Sans;
+  font-weight: lighter;
+  font-style: italic;
+  color: #E1CBA9;
+}
+
+.info {
+  padding: 40px 200px;
+  margin: 20px;
+  text-align: center;
+}
+
+.info p {
+  color: #333;
+  font-family: Gill Sans;
+  font-weight: lighter;
+}
+
+.social-media {
+  padding: 50px;
+  margin: 20px;
+  text-align: left;
+}
+
+.social-media h1{
+  margin: 10px;
+  font-weight: bolder;
+  font-size: 30px;
+  font-family: Gill Sans;
+  color: #E1CBA9;
+}
+
+.social-media p {
+  margin: 10px;
+  color: #333;
+  font-family: Gill Sans;
+  font-weight: lighter;
+}
+
+.social-media button {
+  background-color: #333;
+  color: #E1CBA9;
+  font-family: Gill Sans;
+  margin: 10px;
+  border: none;
+  padding: 20px 50px;
+  font-size: 20px;
+}
+
+.social-media button:hover {
+  opacity: 0.8;
+}
+.social-media button:active {
+  opacity: 0.7;
+}
+
+.email-list {
+  background-color: #333;
+  margin: 40px;
+  padding: 50px;
+  letter-spacing: 5px;
+}
+
+.email-list h3 {
+  font-weight: bolder;
+  font-size: 30px;
+  font-family: Gill Sans;
+  color: #E1CBA9;
+}
+
+.email-list p {
+  font-weight: normal;
+  font-size: 20px;
+  font-family: Gill Sans;
+  color: #E1CBA9;
+}
+
+.email-box {
+  margin: 20px 0px;
+  padding: 15px 80px 15px 15px;
+  font-size: 16px;
+  border: none;
+
+  color: #333;
+  font-family: Gill Sans;
+  font-weight: bold;
+}
+
+.email-box::placeholder {
+  font-family: Gill Sans;
+  font-weight: normal;
+  color: #e0e0e0;
+}
+
+footer {
+  padding: 20px;
+  margin: 20px;
+  text-align: center;
+}
+
+footer h6 {
+  font-family: Gill Sans;
+  font-weight: lighter;
+}

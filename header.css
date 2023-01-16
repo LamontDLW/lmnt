@@ -1,0 +1,55 @@
+
+.nav {
+  text-align: center;
+  margin: 0px;
+  padding: 15px;
+  background-color: #FFFFFF;
+
+  font-family: Gill Sans;
+  font-weight: bold;
+
+  z-index: 100;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: lightgrey;
+
+}
+
+.title {
+  display: block;
+  width: 100%;
+}
+
+.title h1 {
+  font-family: Gill Sans;
+  font-weight: bold;
+  font-size: 50px;
+  text-transform: uppercase;
+  letter-spacing: 15px;
+}
+
+.action-buttons {
+  display: inline-flex;
+  vertical-align: center;
+}
+
+.action-buttons p {
+   font-family: Gill Sans;
+   font-size: 15px;
+   font-weight: lighter;
+   padding: 7px;
+   letter-spacing: 10px;
+   margin: 7px 15px;
+   transition: color 0.15s, font-size 0.15s;
+}
+
+.action-buttons p:hover {
+  color: #E1CBA9;
+  font-size: 15.5px;
+  cursor: pointer;
+}
