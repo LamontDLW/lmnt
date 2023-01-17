@@ -252,5 +252,6 @@ footer {
 
 footer h6 {
   font-family: Gill Sans;
-  font-weight: lighter;
+  font-weight: normal;
+  color: #333;
 }
